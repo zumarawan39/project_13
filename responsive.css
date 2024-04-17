@@ -1,0 +1,139 @@
+:root{
+    --primary-color:#B934FB;
+}
+
+@media screen and (max-width:600px) {
+    
+  .list{
+      position: fixed;
+      background-color: rgba(16, 72, 126, 0.418);;
+      height: 100%;
+      width: 40%;
+      top: 0;
+      transition: all 1.5s ease-in-out;
+  }  
+  ul{
+    display: block;
+    padding-top: 27px;
+  }
+ .list ul li,#fli{
+  margin: 10px 0px;
+  background-color:rgba(16, 72, 126, 0.418);;
+  color: white;
+  border-radius: 20px ;
+  width: 130px;
+  }
+   #fli{
+    
+    color: black;
+    margin-bottom: 27px;
+    margin-top: -10px;
+    opacity: 1;
+    text-align: right;
+  }
+  a{
+    display: block;
+    width: 112px;
+    height: 43px;
+  }
+
+  .innermain1{
+    border: 1px solid black;
+    margin: 10px;
+  }
+  .list .flex{
+    display: block;
+  }
+  #fli i{
+    font-size: 20px;
+  }
+  .list{
+    position: fixed;
+    left: -100%;
+    z-index: 2;
+  }
+  .icons{
+    display: block;
+  }
+  .show{
+       left: 0;
+  }
+  .inner{
+    width: 100%;
+    padding: 20px;
+  }
+  input ,  .form1 input{
+    /* padding: 15px 88px 10px 10px; */
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  .btn1{
+    padding: 13px 54px
+  }
+  .headingmain2  h1{
+    font-size: 25px;
+  }
+  footer a{
+    display: inline;
+    font-size: 12px;
+  }
+  .client1{
+    width: 25%;
+  }
+  .formg{
+    width: 100%;
+  }
+.bottominfo {
+  flex-direction: column;
+}
+.iconsinfo  {
+    width: 100vh;
+    flex-direction: row;
+}
+.iconsinfo a{
+    display: inline;
+}
+.leftimg,.ltopimg,.lbottomimg,.centerimg,.rightimg{
+    width: 100%;
+}
+.overlay {
+width: 100%;
+display: none;
+}
+.innermain1{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 10px;
+}
+.overlay1{
+    height: 210px;
+    width: 350px;
+    top: 20px;
+}
+.overlay2{
+    height: 210px;
+    width: 348px;
+    top: 247px;
+}
+.overlay3{
+    height: 451px;
+    width: 348px;
+    margin: auto;
+    top:484px;
+    left: 24px;
+}
+.overlay4{
+    height: 210px;
+    width: 350px;
+    top:954px;
+    left: 23px;
+}
+.overlay5{
+    height: 210px;
+    width: 350px;
+    top:1180px;
+    left: 23px;
+}
+}
+/*imp point*/
+/* display block par bad ma display none kai ho to transition work nhi krti */
