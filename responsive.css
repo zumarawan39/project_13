@@ -87,7 +87,7 @@
   flex-direction: column;
 }
 .iconsinfo  {
-    width: 100vh;
+    width: 50vh;
     flex-direction: row;
 }
 .iconsinfo a{
